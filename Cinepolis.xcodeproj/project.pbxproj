@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FBE039EF2CEDF5EE002FA92A /* OMDbSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE039EE2CEDF5EE002FA92A /* OMDbSearchView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FB1F8D932CEBE047009A140C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		FB1F8D812CEBE044009A140C /* Cinepolis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinepolis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB1F8D922CEBE047009A140C /* CinepolisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinepolisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB1F8D9C2CEBE047009A140C /* CinepolisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinepolisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE039EE2CEDF5EE002FA92A /* OMDbSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDbSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		FB1F8D782CEBE044009A140C = {
 			isa = PBXGroup;
 			children = (
+				FBE039EE2CEDF5EE002FA92A /* OMDbSearchView.swift */,
 				FB1F8D832CEBE044009A140C /* Cinepolis */,
 				FB1F8D952CEBE047009A140C /* CinepolisTests */,
 				FB1F8D9F2CEBE047009A140C /* CinepolisUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE039EF2CEDF5EE002FA92A /* OMDbSearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
